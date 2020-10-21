@@ -1,10 +1,16 @@
 import random
 import string
+import sys
 from itertools import accumulate
+
+if len(sys.argv) < 2:
+    raise ValueError(
+        'Please provide random seed as system argument; python decoder.py [random_seed]'
+    )
 
 fn_in  = 'secret.txt'
 fn_out = 'revelation.txt'
-seed = 
+seed = int(sys.argv[1])
 max_n_random = int(1e6)
 
 random.seed(seed)
@@ -16,11 +22,9 @@ if __name__ =='__main__':
 
     with open(fn_in, 'r') as f:
         file = f.read()
-
-
+        
     decoded_file = ''
     i = 0
-    idxs = list(accumulate(random_n))
     for n in random_n:
         i += n
         if i > len(file):
