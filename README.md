@@ -4,7 +4,7 @@
 Decoding `secret.txt` is as easy as running
 
 ``` bash 
-python decoder [random_seed]
+python decoder.py [random_seed]
 ```
 
 as long as you know the seed...
