@@ -3,14 +3,15 @@ import string
 import sys
 from itertools import accumulate
 
-if len(sys.argv) < 2:
+if len(sys.argv) < 3:
     raise ValueError(
-        'Please provide random seed as system argument; python decoder.py [random_seed]'
+        'Please provide filename and random seed as system argument;' \
+        + ' python decoder.py [filename] [random_seed]'
     )
 
-fn_in  = 'secret.txt'
-fn_out = 'revelation.txt'
-seed = int(sys.argv[1])
+fn_in  = sys.argv[1]
+fn_out = fn_in[:fn_in.find('.')]+'_decrypted.txt'
+seed = int(sys.argv[2])
 max_n_random = int(1e6)
 
 random.seed(seed)
