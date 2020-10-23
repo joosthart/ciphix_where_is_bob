@@ -14,7 +14,6 @@ python decoder.py secretX.txt [random_seed]
 
 as long as you know the seed...
 
-<<<<<<< HEAD
 # The riddle
 With the game "juffen 7 11", the players count up from 1 player to player. Whenever a number is encountered which is a multiple of 7 or eleven or contains a 7 or an 11, the player should say "juf". E.g 14 and 17 are both "juf"s. If a player fails to do so, the game stops. Say, you are all super very smart and you have reached 100. How many times has the word "juf" been said during the game?
 
