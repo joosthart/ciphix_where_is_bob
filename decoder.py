@@ -1,7 +1,6 @@
 import random
 import string
 import sys
-from itertools import accumulate
 
 if len(sys.argv) < 3:
     raise ValueError(
