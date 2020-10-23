@@ -1,9 +1,0 @@
-With the game "juffen 7 11", the players count up from 1 player to player. Whenever a number is encoutered which is a multiple of 7 or eleven or contains a 7 or an 11, the player should say "juf". E.g 14 and 17 are both "juf"s. If a player fails to do so, the game stops. Say, you are all super very smart and you have reached 100. How many times has the word "juf" been said during the game? 39
-
-You have seen the video of Mark at the beginning of this GenEvent. If you add all single digits visbile in the video what number do you get? 2 + 2 + 2 + 3 + 5 + 4 + 3 + 3 + 4 = 28
-
-In how many days will it be April 30 2022? 547
-
-What is the answer to live, the universe and everything? 42
-
-As you all know, Bob works very hard. However, Bob also gets tired pretty fast. Say he has a Job to and he finished the first half in 30 minutes. This made Bob very tired, and the second quarter he finishes in 15 minutes. After that he is even more tired, and the next eight he finishes in 7.5 minutes, and so on, and so on. In how many minutes does Bob finish the Job? 60
